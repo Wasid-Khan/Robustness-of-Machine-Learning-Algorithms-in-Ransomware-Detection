@@ -1,11 +1,10 @@
 # Ransomware Detection using Machine Learning
 
-![Ransomware](Photos/header_img_malware.png)
+The Ransomware.rar contains the Ransomware.csv dataset.
 
 
 **Goal of this Project**\
-Predict Ransomware based on file properties extracted from a tool. This model is a part of Full Antivirus + Malware Protection Software.
-Its a classification problem (Supervised Machine Learning). The data was immbalanced and needed to be transformed (Synthetic Samples: SMOTE-Tomek).
+Predict Ransomware based on file properties extracted from a tool. The data was immbalanced and needed to be transformed (Synthetic Samples: SMOTE-Tomek).
 
 
 **Highlights**
@@ -15,14 +14,10 @@ Its a classification problem (Supervised Machine Learning). The data was immbala
 * Removing Multi-colinear features (VIF)
 
 
-| ![Ransomware](Photos/lime.png) | 
-|:--:| 
 | *LIME Explainability for Local Interpretation* |
 
 
 **Model Performance on Test Dataset**
-| ![Ransomware](Photos/confusion_matrix.png) | 
-|:--:| 
 | *Confusion Matrix* |
 
 
